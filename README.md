@@ -1,6 +1,16 @@
 # Less Entropy
 
-A simple spigot plugin to prevent ender dragons from breaking blocks, and significantly reduce endermen block interactions.
+A simple spigot plugin to prevent ender dragons from breaking blocks, significantly reduce endermen block interactions, and reduce pigmen spawns from nether portals. All three features are configurable.
+
+## Configuring
+
+`plugins/LessEntropy/config.yml`:
+
+```yaml
+enderman-block-pickup-chance: 0.075
+dragon-block-break-chance: 0.0
+portal-spawn-chance: 0.1
+```
 
 ## Building
 

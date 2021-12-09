@@ -1,1 +1,3 @@
-chance: 0.075
+enderman-block-pickup-chance: 0.075
+dragon-block-break-chance: 0.0
+portal-spawn-chance: 0.1
