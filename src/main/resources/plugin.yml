@@ -1,6 +1,6 @@
 main: ${PACKAGE}.${NAME}
 name: ${NAME}
 version: "${VERSION}"
-api-version: "1.16"
+api-version: "1.19"
 author: lordpipe
 description: Prevent dragon from breaking blocks
