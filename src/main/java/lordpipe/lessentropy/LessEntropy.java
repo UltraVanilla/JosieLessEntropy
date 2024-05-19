@@ -19,6 +19,9 @@ public class LessEntropy extends JavaPlugin {
         if (getConfig().getDouble("dragon-block-break-chance") < 1.0)
             getServer().getPluginManager().registerEvents(new DragonListener(this), this);
 
+        if (getConfig().getLocation("end-return-portal-destination") != null)
+            getServer().getPluginManager().registerEvents(new EntityPortalListener(this), this);
+
         saveDefaultConfig();
     }
 }

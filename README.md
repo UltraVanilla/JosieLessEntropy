@@ -1,6 +1,6 @@
 # Less Entropy
 
-A simple spigot plugin to prevent ender dragons from breaking blocks, significantly reduce endermen block interactions, and reduce pigmen spawns from nether portals. All three features are configurable.
+A simple spigot plugin to prevent ender dragons from breaking blocks, significantly reduce endermen block interactions, and reduce pigmen spawns from nether portals. It also allows custom overworld return locations for entities tossed into the end portal. All three features are configurable.
 
 ## Configuring
 
@@ -10,12 +10,20 @@ A simple spigot plugin to prevent ender dragons from breaking blocks, significan
 enderman-block-pickup-chance: 0.075
 dragon-block-break-chance: 0.0
 portal-spawn-chance: 0.1
+end-return-portal-destination:
+  ==: org.bukkit.Location
+  world: world
+  x: 5.5
+  y: 64.00
+  z: 5.5
+  pitch: 0.0
+  yaw: -90.0
 ```
 
 ## Building
 
 ```shell
-gradle build
+./gradlew build
 ```
 
 ## License
